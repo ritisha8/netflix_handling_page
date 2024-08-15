@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color:white;
+}
+
+.hero-area{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)) ,url(background_image.jpg);
+    background-size: cover;
+
+}
+.img-logo{
+    width: 20%;
+    margin-left: 80px;
+}
+.signIn-container{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 450px;
+    height: 735px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 33%;
+
+}
+header{
+    margin-top: 50px;
+    width: 314px;
+    height: 71px;
+}
+h1{
+    height: 43px;
+    margin: 0px 0px 28px;
+}
+.email{
+    width: 310px;
+    height: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+   /** padding: 1.5rem 1rem 0.5rem;  **/
+   background-color: transparent;
+   border: 1.5px solid rgba(255, 255, 255, 0.7);
+   border-radius: 4px;
+   
+    
+}
+.password{
+    width: 310px;
+    height: 50px;
+    color: inherit;
+    padding-left: 20px;
+    margin-bottom: 20px;
+   /** padding: 1.5rem 1rem 0.5rem;  **/
+   background-color: transparent;
+   border: 1.5px solid rgba(255, 255, 255, 0.7);
+   border-radius: 4px;
+
+}
+::placeholder{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 20px;
+    
+}
+.signin-btn{
+    background-color: #e50914;
+    color: white;
+    display: block;
+    height: 36px;
+    width: 315px;
+    border-radius: 4px;
+    border:none;
+    margin-bottom: 20px;
+
+}
+
+.or{
+    text-align: center;
+}
+
+.content{
+
+    height: 350px;
+    width: 310px;
+ 
+}
+.code{
+    margin-top: 20px;
+    height: 36px;
+    width: 315px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.footer1{
+    height: 234px;
+    width: 310px;
+}
+
+#remember{
+    background-color: white;
+    border:1.5px solid rgba(255, 255, 255, 0.7);
+    color: transparent;
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+label{
+    margin-left: 20px;
+    font-size: 17px;
+    
+}
+.Forgot{
+    text-align: center;
+}
+.New{
+    color:rgba(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+}
+.protect{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color:rgba(255, 255, 255, 0.8);
+}
+.protect a{
+    text-decoration: none;
+    color: rgb(81, 81, 252);
+}
+.final{
+    height: 400px;
+    background-color: black;
+}
+.final{
+    padding-left: 50px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    
+}
+.ques{
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 100px;
+}
+ul{
+    color: rgba(255, 255, 255, 0.7);
+    height: 100px;
+    width: 980px;
+    display: grid;
+    
+}
+
+ul a{
+    margin-right: 120px;
+}
+.foot-select{
+    color: rgba(255, 255, 255, 0.7);
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    padding: 6px 28px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /**  background-color: black; 
+    color: white; 
+}
+/**.background{
+    width: 1500px;
+    height: 700px;
+    background-image: url(background_image.jpg);
+    background-size: cover;
+    opacity: 0.4;
+}
+.logo{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    height: 40px;
+    width: 150px;
+}**/
